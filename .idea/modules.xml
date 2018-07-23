@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nqueens-kotlin-optaplanner.iml" filepath="$PROJECT_DIR$/nqueens-kotlin-optaplanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nqueens-kotlin-optaplanner_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nqueens-kotlin-optaplanner_main.iml" group="nqueens-kotlin-optaplanner" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nqueens-kotlin-optaplanner_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nqueens-kotlin-optaplanner_test.iml" group="nqueens-kotlin-optaplanner" />
+    </modules>
+  </component>
+</project>

@@ -29,8 +29,8 @@ global SimpleScoreHolder scoreHolder;
 
 rule "No multiple queens in same row"
     when
-        Queen($id : id, row != null, $i : row.index)
-        Queen(id > $id, row != null, row.index == $i)
+        Queen($id : id, $i : row!.index)
+        Queen(id > $id, row!.index == $i)
     then
         scoreHolder.addConstraintMatch(kcontext, -1);
 end
